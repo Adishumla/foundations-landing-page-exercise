@@ -48,7 +48,6 @@ a {
     width: 25%;
     height: auto;
     border-radius: 16px;
-    border-style: outset;
     border-color: #e5e7eb;
     border-style: solid;
     box-shadow: 10px 10px 4px #131922;
@@ -108,8 +107,8 @@ background-color: #5e9bfe;
     width: 200px;
     height: 200px;
     border-radius: 32px;
-    border-color: #d0dfea;
-    border-style: outset solid;
+    border-color: #4a7d85;
+    border-style: solid;
     object-fit: cover;
     box-shadow: 8px 8px 8px #636363;
 }
@@ -133,4 +132,85 @@ background-color: #5e9bfe;
     font-size: 36px;
     color: #1f2937;
     margin: 32px;
+}
+
+.third-container {
+    background-color: #e5e7eb;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 100px;
+}
+
+.quote {
+    font-weight: lighter;
+    font-style: italic;
+    width: 800px;
+    height: auto;
+    text-align:start;
+    font-size: 36px;
+}
+
+.quoter {
+    display: flex;
+    justify-items: flex-end;
+    align-self: flex-end;
+    margin: 0;
+}
+
+.quoter-container {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 68px;
+    margin: 0;
+}
+
+.fourth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.action {
+    width: 800px;
+    height: 100px;
+    background-color: #3882f6;
+    border-radius: 5px;
+    padding: 8px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 64px;
+}
+.action-text-title, .action-text-paragraph {
+    color: #f9faf8;
+    margin: 0;
+}
+
+.action-text-paragraph {
+    color: #e5e7eb;
+}
+
+.action-button {
+    padding: 4px 28px;
+    background-color: #3882f6;
+    border: #f9faf8 solid 2px;
+    border-radius: 8px;
+    color: #f9faf8;
+    font-size: 16px;
+}
+
+.action-button:hover {
+    background-color: #5e9bfe;
+    box-shadow: 4px 4px 8px #131922;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding: 24px;
 }
