@@ -50,7 +50,7 @@ a {
     border-radius: 16px;
     border-style: outset;
     border-color: #e5e7eb;
-    border-style:solid;
+    border-style: solid;
     box-shadow: 10px 10px 4px #131922;
 }
 
@@ -89,4 +89,48 @@ a {
 .img-text-button:hover {
 box-shadow: 8px 8px #161d27;
 background-color: #5e9bfe;
+}
+
+.second-container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+    margin: 32px;
+}
+
+.first-img, .second-img, .third-img, .fourth-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 32px;
+    border-color: #d0dfea;
+    border-style: outset solid;
+    object-fit: cover;
+    box-shadow: 8px 8px 8px #636363;
+}
+
+.first-img:hover, .second-img:hover, .third-img:hover, .fourth-img:hover {
+    box-shadow: 10px 9px 8px #636363;
+
+}
+
+.first-subtext-img, .second-subtext-img, .third-subtext-img, .fourth-subtext-img {
+    width: 200px;
+}
+
+.subtext {
+    padding: 0;
+    margin: 6px;
+    color: #1f2937;
+}
+
+.second-container-title {
+    font-size: 36px;
+    color: #1f2937;
+    margin: 32px;
 }
